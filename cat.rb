@@ -18,7 +18,11 @@ attr_accessor :name, :preferred_food, :meal_time, :meow
     return "#{@meal_time}pm"
   end
   end
-
+  # added instance method called meow
+  def meow
+  puts "My name is #{name} and i eat #{preferred_food} at #{eats_at}"
+  end
+  end
 # added two instances of class
 cat1= Cat.new("Ahri", "apples", 14)
 cat2= Cat.new("Yasuo", "teemo", 1)
@@ -26,3 +30,5 @@ cat2= Cat.new("Yasuo", "teemo", 1)
 # added two instances using eats at
 cat1.eats_at
 cat2.eats_at
+#added cat telling you about itself
+cat2.meow
