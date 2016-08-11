@@ -1,7 +1,7 @@
 class Paperboy
 
 attr_reader :earnings
-attr_accessor :quota
+attr_accessor :quota :start_address, :end_address
 
   def initialize(name, experience, side, earnings,)
     @name = name
@@ -15,3 +15,14 @@ attr_accessor :quota
    return "#{@experience * 0.5 + 50}"
  end
  end
+
+  def deliver(start_address, end_address)
+  houses= []
+  if @side = "even"
+    (1..22).find_all {|n| n % 2 == 0}
+    return houses.length
+
+  else
+    (1..22).find_all {|n| n % 2 == !0}
+    return houses_length
+end
