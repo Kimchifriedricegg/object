@@ -32,3 +32,4 @@ cat1.eats_at
 cat2.eats_at
 #added cat telling you about itself
 cat2.meow
+cat1.meow
