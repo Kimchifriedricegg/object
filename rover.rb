@@ -69,5 +69,3 @@ end
 
 #testing
 teemo = Rover.new(0,0,"M")
-teemo.location
-teemo.read_instruction
