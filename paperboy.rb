@@ -56,5 +56,5 @@ end
 
 tommy = Paperboy.new("Tommy", "even")
 tommy.quota
-tommy.deliver(100,200)
+tommy.deliver(200,200)
 tommy.report
