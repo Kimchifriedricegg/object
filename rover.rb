@@ -1,6 +1,6 @@
 class Rover
 
-attr_accessor :x_coordinate, :y_coordinate, :direction,
+attr_accessor :x_coordinate, :y_coordinate, :direction, :location
   def initialize(x_coordinate, y_coordinate, direction)
     @x_coordinate = x_coordinate
     @y_coordinate = y_coordinate
@@ -68,6 +68,5 @@ end
 
 
 #testing
-teemo = Rover.new(0,0,"M")
+teemo = Rover.new(1,1,"M")
 teemo.location
-teemo.read_instruction
