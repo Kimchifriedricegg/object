@@ -13,8 +13,8 @@ attr_accessor :x_coordinate, :y_coordinate, :direction, :location
 
 
   def read_instruction(instructions)
+    instructions = gets.chomp
     instructions.each do |act|
-      instructions = gets.chomp
       if act == "M"
         move
       elsif act == "R"
@@ -70,3 +70,4 @@ end
 #testing
 teemo = Rover.new(1,1,"M")
 teemo.location
+teemo.read_instruction("M")
